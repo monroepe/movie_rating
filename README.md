@@ -20,6 +20,6 @@ The last edge case I ran into was the film Wasp (2004). Luckily this film return
 
 I am sure there were some other edge cases with similar problems (wrong title, wrong year), that is the nature of data entry. Although I did not implement it, for the future to combat this problem I would probably make some sort of method that tries to get the film based the title and year entered and if no rating is returned throw an error asking the user to check the film or more practically do a broader search (in the API call, using "s= title" instead of "t=title" and no year), which would return a list of potential movies the might have meant. I think that would help to prevent any future entry problems (assuming there is some sort of UI), but does not solve the problem of getting incorrect data from the csv.
 
-I included these edge cases and the correct entries in the movie_exceptions.csv to show the difference (and where possible I included both in the short_movies.csv).
+I included these edge cases and the correct entries in the movie_exceptions.csv to show the difference (and where possible I included both in the short_movies.csv). I also included so other movies just to fill out the report a little more for testing.
 
 Overall it took me about and hour and a half to get the program functioning and a little over a half hour to handle the initial edge cases (and then some more time to write this readme). So it took me a little over two hours to produce this code and then probably another hour or so looking for edge cases and documenting.
