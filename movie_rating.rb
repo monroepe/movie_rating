@@ -1,9 +1,9 @@
-require "pry"
 require "csv"
-require "rest_client"
 require "json"
+require "rest_client"
 
-movies_years = CSV.read("short_movies.csv")
+
+movies_years = CSV.read("movies.csv")
 movies_ratings = {}
 
 movies_years.each do |movie|
